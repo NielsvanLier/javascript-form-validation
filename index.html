@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Form validation</title>
 </head>
 <body>
-
+    <div class="form-wrapper">
+        <form>
+            <h2 class="form-title">Registreren</h2>
+            <label for="username">Gebruikersnaam:</label>
+            <input type="text"  id="username" name="username">
+            <p class="error" id="username-error"></p>
+            <label for="password">Wachtwoord:</label>
+            <input type="password" id="password" name="password">
+            <p class="error" id="password-error"></p>
+        </form>
+    </div>
+<script src="main.js"></script>
 </body>
 </html>

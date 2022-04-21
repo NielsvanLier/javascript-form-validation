@@ -8,7 +8,7 @@ Iedere keer als de gebruiker de waarde in het gebruikersnaam-veld veranderd, che
 geen `@` bevat. Als dat zo is, wordt de melding _"Gebruikersnaam mag geen @ bevatten"_ getoond. 
 
 Iedere keer als de gebruiker de waarde van het wachtwoord-veld veranderd, checkt jouw script of het wachtwoord 
-langer is dan 6 tekens. Als dat niet zo is, wordt de melding _"Wachtwoord is te kort, gebruik minimaal 6 tekens"_ 
+langer is dan 6 tekens. Als dat niet zo is, wordt de melding _g_ 
 getoond. Als de gebruiker het veld weer helemaal leeg heeft gemaakt, moet de melding ook verdwenen zijn.
 
 ![animatie form validation](assets/opdracht-form-validation.gif)
